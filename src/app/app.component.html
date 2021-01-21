@@ -1,0 +1,15 @@
+<h2>Phone Mask</h2>
+<h3>Replace space with "-" with no "-" in Real value</h3>
+<span>Typing: 123 2422</span>
+
+<div class="form-group">
+  <label for="tel">Tel:</label>
+  <input id="tel" class="form-control" [formControl]="phone" phoneMask />
+
+  <pre>
+    Status: {{ phone.status | json }}
+    Real Value: {{ phone.value }}
+    Errors: {{ phone.errors | json }}
+    </pre
+  >
+</div>

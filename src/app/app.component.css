@@ -1,0 +1,9 @@
+p {
+  font-family: Lato;
+}
+.errmsg{
+    border-left: 3px solid red;
+}
+.validmsg{
+  border-left: 5px solid #42A948; /* green */
+}
